@@ -29,7 +29,7 @@
 		BA66E5CC19FB328B000E858B /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA66E5CB19FB328B000E858B /* OpenGLES.framework */; };
 		BA66E5CE19FB3294000E858B /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA66E5CD19FB3294000E858B /* Security.framework */; };
 		BA66E5D019FB329B000E858B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA66E5CF19FB329B000E858B /* UIKit.framework */; };
-		BAA28DBB19FB49C100FD2E4C /* ArcGIS.bundle in Resources */ = {isa = PBXBuildFile; fileRef = BAA28DBA19FB49C100FD2E4C /* ArcGIS.bundle */; };
+		BA9A596A1A3B700800288236 /* ArcGIS.bundle in Resources */ = {isa = PBXBuildFile; fileRef = BA9A59691A3B700800288236 /* ArcGIS.bundle */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -75,7 +75,7 @@
 		BA66E5CB19FB328B000E858B /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
 		BA66E5CD19FB3294000E858B /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
 		BA66E5CF19FB329B000E858B /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
-		BAA28DBA19FB49C100FD2E4C /* ArcGIS.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = ArcGIS.bundle; path = ../../Library/SDKs/ArcGIS/iOS/ArcGIS.framework/Versions/Current/Resources/ArcGIS.bundle; sourceTree = "<group>"; };
+		BA9A59691A3B700800288236 /* ArcGIS.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = ArcGIS.bundle; path = ../../../../Library/SDKs/ArcGIS/iOS/ArcGIS.framework/Versions/Current/Resources/ArcGIS.bundle; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,7 +110,7 @@
 		BA66E57B19F3780C000E858B = {
 			isa = PBXGroup;
 			children = (
-				BAA28DBA19FB49C100FD2E4C /* ArcGIS.bundle */,
+				BA9A59691A3B700800288236 /* ArcGIS.bundle */,
 				BA66E5CF19FB329B000E858B /* UIKit.framework */,
 				BA66E5CD19FB3294000E858B /* Security.framework */,
 				BA66E5CB19FB328B000E858B /* OpenGLES.framework */,
@@ -307,8 +307,8 @@
 			files = (
 				BA66E59619F3780C000E858B /* Main.storyboard in Resources */,
 				BA66E59B19F3780C000E858B /* LaunchScreen.xib in Resources */,
-				BAA28DBB19FB49C100FD2E4C /* ArcGIS.bundle in Resources */,
 				BA66E59819F3780C000E858B /* Images.xcassets in Resources */,
+				BA9A596A1A3B700800288236 /* ArcGIS.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

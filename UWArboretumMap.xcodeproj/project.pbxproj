@@ -29,7 +29,7 @@
 		BA66E5CC19FB328B000E858B /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA66E5CB19FB328B000E858B /* OpenGLES.framework */; };
 		BA66E5CE19FB3294000E858B /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA66E5CD19FB3294000E858B /* Security.framework */; };
 		BA66E5D019FB329B000E858B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA66E5CF19FB329B000E858B /* UIKit.framework */; };
-		BAA28DBB19FB49C100FD2E4C /* ArcGIS.bundle in Resources */ = {isa = PBXBuildFile; fileRef = BAA28DBA19FB49C100FD2E4C /* ArcGIS.bundle */; };
+		BA9A596C1A3B707C00288236 /* ArcGIS.bundle in Resources */ = {isa = PBXBuildFile; fileRef = BA9A596B1A3B707C00288236 /* ArcGIS.bundle */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -75,7 +75,7 @@
 		BA66E5CB19FB328B000E858B /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
 		BA66E5CD19FB3294000E858B /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
 		BA66E5CF19FB329B000E858B /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
-		BAA28DBA19FB49C100FD2E4C /* ArcGIS.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = ArcGIS.bundle; path = ../../Library/SDKs/ArcGIS/iOS/ArcGIS.framework/Versions/Current/Resources/ArcGIS.bundle; sourceTree = "<group>"; };
+		BA9A596B1A3B707C00288236 /* ArcGIS.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = ArcGIS.bundle; path = ../../../Library/SDKs/ArcGIS/iOS/ArcGIS.framework/Versions/Current/Resources/ArcGIS.bundle; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,8 +110,7 @@
 		BA66E57B19F3780C000E858B = {
 			isa = PBXGroup;
 			children = (
-				BAA28DBC1A3ABBB700FD2E4C /* iOS */,
-				BAA28DBA19FB49C100FD2E4C /* ArcGIS.bundle */,
+				BA9A596B1A3B707C00288236 /* ArcGIS.bundle */,
 				BA66E5CF19FB329B000E858B /* UIKit.framework */,
 				BA66E5CD19FB3294000E858B /* Security.framework */,
 				BA66E5CB19FB328B000E858B /* OpenGLES.framework */,
@@ -185,54 +184,6 @@
 				BA66E5A519F3780C000E858B /* Info.plist */,
 			);
 			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		BAA28DBC1A3ABBB700FD2E4C /* iOS */ = {
-			isa = PBXGroup;
-			children = (
-				BAA28DBD1A3ABBB700FD2E4C /* Samples */,
-			);
-			name = iOS;
-			path = ../../../../../Library/SDKs/ArcGIS/iOS;
-			sourceTree = "<group>";
-		};
-		BAA28DBD1A3ABBB700FD2E4C /* Samples */ = {
-			isa = PBXGroup;
-			children = (
-				BAA28DBE1A3ABBB700FD2E4C /* MapViewDemo */,
-				BAA28DC01A3ABBB700FD2E4C /* MapViewDemo-Swift */,
-			);
-			path = Samples;
-			sourceTree = "<group>";
-		};
-		BAA28DBE1A3ABBB700FD2E4C /* MapViewDemo */ = {
-			isa = PBXGroup;
-			children = (
-				BAA28DBF1A3ABBB700FD2E4C /* MapViewDemo */,
-			);
-			path = MapViewDemo;
-			sourceTree = "<group>";
-		};
-		BAA28DBF1A3ABBB700FD2E4C /* MapViewDemo */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = MapViewDemo;
-			sourceTree = "<group>";
-		};
-		BAA28DC01A3ABBB700FD2E4C /* MapViewDemo-Swift */ = {
-			isa = PBXGroup;
-			children = (
-				BAA28DC11A3ABBB700FD2E4C /* MapViewDemo-Swift */,
-			);
-			path = "MapViewDemo-Swift";
-			sourceTree = "<group>";
-		};
-		BAA28DC11A3ABBB700FD2E4C /* MapViewDemo-Swift */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = "MapViewDemo-Swift";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -356,8 +307,8 @@
 			files = (
 				BA66E59619F3780C000E858B /* Main.storyboard in Resources */,
 				BA66E59B19F3780C000E858B /* LaunchScreen.xib in Resources */,
-				BAA28DBB19FB49C100FD2E4C /* ArcGIS.bundle in Resources */,
 				BA66E59819F3780C000E858B /* Images.xcassets in Resources */,
+				BA9A596C1A3B707C00288236 /* ArcGIS.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
