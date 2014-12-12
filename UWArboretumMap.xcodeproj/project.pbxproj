@@ -15,6 +15,21 @@
 		BA66E59819F3780C000E858B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BA66E59719F3780C000E858B /* Images.xcassets */; };
 		BA66E59B19F3780C000E858B /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = BA66E59919F3780C000E858B /* LaunchScreen.xib */; };
 		BA66E5A719F3780C000E858B /* UWArboretumMapTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BA66E5A619F3780C000E858B /* UWArboretumMapTests.m */; };
+		BA66E5B219F37FC9000E858B /* ThirdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BA66E5B119F37FC9000E858B /* ThirdViewController.m */; };
+		BA66E5B519F37FDA000E858B /* FourthViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BA66E5B419F37FDA000E858B /* FourthViewController.m */; };
+		BA66E5B819F38414000E858B /* FifthViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BA66E5B719F38414000E858B /* FifthViewController.m */; };
+		BA66E5BC19FB322E000E858B /* AssetsLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA66E5BB19FB322E000E858B /* AssetsLibrary.framework */; };
+		BA66E5BE19FB3240000E858B /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA66E5BD19FB3240000E858B /* CoreGraphics.framework */; };
+		BA66E5C019FB324E000E858B /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA66E5BF19FB324E000E858B /* CoreLocation.framework */; };
+		BA66E5C219FB3254000E858B /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA66E5C119FB3254000E858B /* CoreText.framework */; };
+		BA66E5C419FB325E000E858B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA66E5C319FB325E000E858B /* Foundation.framework */; };
+		BA66E5C619FB326A000E858B /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA66E5C519FB326A000E858B /* QuartzCore.framework */; };
+		BA66E5C819FB3276000E858B /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA66E5C719FB3276000E858B /* MediaPlayer.framework */; };
+		BA66E5CA19FB3282000E858B /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA66E5C919FB3282000E858B /* MobileCoreServices.framework */; };
+		BA66E5CC19FB328B000E858B /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA66E5CB19FB328B000E858B /* OpenGLES.framework */; };
+		BA66E5CE19FB3294000E858B /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA66E5CD19FB3294000E858B /* Security.framework */; };
+		BA66E5D019FB329B000E858B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA66E5CF19FB329B000E858B /* UIKit.framework */; };
+		BAA28DBB19FB49C100FD2E4C /* ArcGIS.bundle in Resources */ = {isa = PBXBuildFile; fileRef = BAA28DBA19FB49C100FD2E4C /* ArcGIS.bundle */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,6 +58,24 @@
 		BA66E5A019F3780C000E858B /* UWArboretumMapTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UWArboretumMapTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BA66E5A519F3780C000E858B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BA66E5A619F3780C000E858B /* UWArboretumMapTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UWArboretumMapTests.m; sourceTree = "<group>"; };
+		BA66E5B019F37FC9000E858B /* ThirdViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThirdViewController.h; sourceTree = "<group>"; };
+		BA66E5B119F37FC9000E858B /* ThirdViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThirdViewController.m; sourceTree = "<group>"; };
+		BA66E5B319F37FDA000E858B /* FourthViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FourthViewController.h; sourceTree = "<group>"; };
+		BA66E5B419F37FDA000E858B /* FourthViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FourthViewController.m; sourceTree = "<group>"; };
+		BA66E5B619F38414000E858B /* FifthViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FifthViewController.h; sourceTree = "<group>"; };
+		BA66E5B719F38414000E858B /* FifthViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FifthViewController.m; sourceTree = "<group>"; };
+		BA66E5BB19FB322E000E858B /* AssetsLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AssetsLibrary.framework; path = System/Library/Frameworks/AssetsLibrary.framework; sourceTree = SDKROOT; };
+		BA66E5BD19FB3240000E858B /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		BA66E5BF19FB324E000E858B /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		BA66E5C119FB3254000E858B /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = System/Library/Frameworks/CoreText.framework; sourceTree = SDKROOT; };
+		BA66E5C319FB325E000E858B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		BA66E5C519FB326A000E858B /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		BA66E5C719FB3276000E858B /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
+		BA66E5C919FB3282000E858B /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		BA66E5CB19FB328B000E858B /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		BA66E5CD19FB3294000E858B /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		BA66E5CF19FB329B000E858B /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		BAA28DBA19FB49C100FD2E4C /* ArcGIS.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = ArcGIS.bundle; path = ../../Library/SDKs/ArcGIS/iOS/ArcGIS.framework/Versions/Current/Resources/ArcGIS.bundle; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -50,6 +83,17 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BA66E5D019FB329B000E858B /* UIKit.framework in Frameworks */,
+				BA66E5CE19FB3294000E858B /* Security.framework in Frameworks */,
+				BA66E5CC19FB328B000E858B /* OpenGLES.framework in Frameworks */,
+				BA66E5CA19FB3282000E858B /* MobileCoreServices.framework in Frameworks */,
+				BA66E5C819FB3276000E858B /* MediaPlayer.framework in Frameworks */,
+				BA66E5C619FB326A000E858B /* QuartzCore.framework in Frameworks */,
+				BA66E5C419FB325E000E858B /* Foundation.framework in Frameworks */,
+				BA66E5C219FB3254000E858B /* CoreText.framework in Frameworks */,
+				BA66E5C019FB324E000E858B /* CoreLocation.framework in Frameworks */,
+				BA66E5BE19FB3240000E858B /* CoreGraphics.framework in Frameworks */,
+				BA66E5BC19FB322E000E858B /* AssetsLibrary.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -66,6 +110,18 @@
 		BA66E57B19F3780C000E858B = {
 			isa = PBXGroup;
 			children = (
+				BAA28DBA19FB49C100FD2E4C /* ArcGIS.bundle */,
+				BA66E5CF19FB329B000E858B /* UIKit.framework */,
+				BA66E5CD19FB3294000E858B /* Security.framework */,
+				BA66E5CB19FB328B000E858B /* OpenGLES.framework */,
+				BA66E5C919FB3282000E858B /* MobileCoreServices.framework */,
+				BA66E5C719FB3276000E858B /* MediaPlayer.framework */,
+				BA66E5C519FB326A000E858B /* QuartzCore.framework */,
+				BA66E5C319FB325E000E858B /* Foundation.framework */,
+				BA66E5C119FB3254000E858B /* CoreText.framework */,
+				BA66E5BF19FB324E000E858B /* CoreLocation.framework */,
+				BA66E5BD19FB3240000E858B /* CoreGraphics.framework */,
+				BA66E5BB19FB322E000E858B /* AssetsLibrary.framework */,
 				BA66E58619F3780C000E858B /* UWArboretumMap */,
 				BA66E5A319F3780C000E858B /* UWArboretumMapTests */,
 				BA66E58519F3780C000E858B /* Products */,
@@ -94,6 +150,12 @@
 				BA66E59719F3780C000E858B /* Images.xcassets */,
 				BA66E59919F3780C000E858B /* LaunchScreen.xib */,
 				BA66E58719F3780C000E858B /* Supporting Files */,
+				BA66E5B019F37FC9000E858B /* ThirdViewController.h */,
+				BA66E5B119F37FC9000E858B /* ThirdViewController.m */,
+				BA66E5B319F37FDA000E858B /* FourthViewController.h */,
+				BA66E5B419F37FDA000E858B /* FourthViewController.m */,
+				BA66E5B619F38414000E858B /* FifthViewController.h */,
+				BA66E5B719F38414000E858B /* FifthViewController.m */,
 			);
 			path = UWArboretumMap;
 			sourceTree = "<group>";
@@ -187,6 +249,45 @@
 			knownRegions = (
 				en,
 				Base,
+				ar,
+				ca,
+				cs,
+				da,
+				de,
+				el,
+				es,
+				fi,
+				fr,
+				he,
+				hr,
+				hu,
+				id,
+				it,
+				ja,
+				ko,
+				ms,
+				nl,
+				no,
+				pl,
+				pt,
+				pt_PT,
+				ro,
+				ru,
+				sk,
+				sv,
+				th,
+				tr,
+				uk,
+				vi,
+				zh_CN,
+				zh_TW,
+				English,
+				French,
+				German,
+				Japanese,
+				Spanish,
+				Dutch,
+				Italian,
 			);
 			mainGroup = BA66E57B19F3780C000E858B;
 			productRefGroup = BA66E58519F3780C000E858B /* Products */;
@@ -206,6 +307,7 @@
 			files = (
 				BA66E59619F3780C000E858B /* Main.storyboard in Resources */,
 				BA66E59B19F3780C000E858B /* LaunchScreen.xib in Resources */,
+				BAA28DBB19FB49C100FD2E4C /* ArcGIS.bundle in Resources */,
 				BA66E59819F3780C000E858B /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -224,9 +326,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BA66E5B519F37FDA000E858B /* FourthViewController.m in Sources */,
 				BA66E59319F3780C000E858B /* SecondViewController.m in Sources */,
+				BA66E5B219F37FC9000E858B /* ThirdViewController.m in Sources */,
 				BA66E58D19F3780C000E858B /* AppDelegate.m in Sources */,
 				BA66E59019F3780C000E858B /* FirstViewController.m in Sources */,
+				BA66E5B819F38414000E858B /* FifthViewController.m in Sources */,
 				BA66E58A19F3780C000E858B /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -351,8 +456,22 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(HOME)/Library/SDKs/ArcGIS/iOS",
+					"$(LOCAL_LIBRARY_DIR)/Frameworks",
+					"$(LOCAL_LIBRARY_DIR)/Printers/Canon/IJScanner/Frameworks",
+					"$(LOCAL_LIBRARY_DIR)/SDKs/ArcGIS/iOS",
+				);
 				INFOPLIST_FILE = UWArboretumMap/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-framework",
+					ArcGIS,
+					"-l",
+					"c++",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -361,8 +480,22 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(HOME)/Library/SDKs/ArcGIS/iOS",
+					"$(LOCAL_LIBRARY_DIR)/Frameworks",
+					"$(LOCAL_LIBRARY_DIR)/Printers/Canon/IJScanner/Frameworks",
+					"$(LOCAL_LIBRARY_DIR)/SDKs/ArcGIS/iOS",
+				);
 				INFOPLIST_FILE = UWArboretumMap/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-framework",
+					ArcGIS,
+					"-l",
+					"c++",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -420,6 +553,7 @@
 				BA66E5AC19F3780C000E858B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		BA66E5AD19F3780C000E858B /* Build configuration list for PBXNativeTarget "UWArboretumMapTests" */ = {
 			isa = XCConfigurationList;
@@ -428,6 +562,7 @@
 				BA66E5AF19F3780C000E858B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

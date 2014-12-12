@@ -1,5 +1,5 @@
 //
-//  AppDelegate.h
+//  FifthViewController.h
 //  UWArboretumMap
 //
 //  Created by Brittany Bentley on 10/18/14.
@@ -7,12 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
-#import <ArcGIS/ArcGIS.h>
 
-@interface AppDelegate : UIResponder <UIApplicationDelegate>
-
-@property (strong, nonatomic) UIWindow *window;
-
+@interface FifthViewController : UIViewController
 
 @end
-
