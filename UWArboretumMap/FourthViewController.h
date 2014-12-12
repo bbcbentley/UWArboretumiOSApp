@@ -3,14 +3,20 @@
 //  UWArboretumMap
 //
 //  Created by Brittany Bentley on 10/18/14.
-//  Copyright (c) 2014 Brittany Bentley. All rights reserved.
+//  Created for the University of Washington Botanical Gardens
+//  Licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License
 //
+
+
 
 #import <UIKit/UIKit.h>
 #import <ArcGIS/ArcGIS.h>
 
-@interface FourthViewController : UIViewController <AGSMapViewLayerDelegate>//, AGSQueryTaskDelegate, AGSPopupsContainerDelegate>
+
+
+@interface FourthViewController : UIViewController <AGSMapViewLayerDelegate, AGSWebMapDelegate, AGSPopupsContainerDelegate>
 @property (strong, nonatomic) IBOutlet AGSMapView *mapView;
-//@property (nonatomic, strong) AGSFeatureSet *walkFeatureSet;
+
 
 @end
+
